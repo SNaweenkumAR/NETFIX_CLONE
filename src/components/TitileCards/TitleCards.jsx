@@ -6,8 +6,6 @@ import { TMDB_Access_Key } from '../../config'
 
 const TitleCards = ({title, category}) => {
 
-  console.log('TMDB Access Key:', TMDB_Access_Key);
-
   const [apiData, setApiData] = useState([]);
   const cardsRef = useRef();
 
@@ -35,7 +33,7 @@ const TitleCards = ({title, category}) => {
 
     cardsRef.current.addEventListener('wheel', handleWheel);
   },[])
-  const dataToPass = { name: 'John Doe', age: 25 };
+  const dataToPass = { name: 'Naveen Kumar S', age: 25 };
   return (
     <div className='title-cards'>
       <h2>{title?title:"Popular on Netflix"}</h2>
