@@ -14,6 +14,6 @@ const firebaseConfig = {
 };
 
 // TMDB Access Key
-const TMDB_Access_Key = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NDQ0ZGU2NDIzYzdiMGU3MGIyODUwYmU4MjJhNDYyMCIsIm5iZiI6MTczNDkzMDA4NS42OTcsInN1YiI6IjY3NjhlZWE1MWM1NGViZmVkNWM0ZDc4MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qPTWMzmhXHPTm_LpeRmcpaQfhi3ew8dJ6hOEESlZA5o;
+const TMDB_Access_Key = import.meta.env.VITE_TMDB_ACCESS_KEY;
 
 export { firebaseConfig, TMDB_Access_Key };
