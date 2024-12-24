@@ -6,6 +6,8 @@ import { TMDB_Access_Key } from '../../config'
 
 const TitleCards = ({title, category}) => {
 
+  console.log('TMDB Access Key:', TMDB_Access_Key);
+
   const [apiData, setApiData] = useState([]);
   const cardsRef = useRef();
 
